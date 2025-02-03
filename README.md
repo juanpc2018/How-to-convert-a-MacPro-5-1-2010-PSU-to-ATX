@@ -77,4 +77,4 @@ the "easy" option is to run a standard power cable insde the case, through the s
 
 Fitting a New ATX SFF-L PSU inside the Original PSU case/shell, maybe possible. </br>
 as you can see there are many ways to do the mod, </br>
-i did the lazy method, nothing fancy, just works. </br>
+i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
