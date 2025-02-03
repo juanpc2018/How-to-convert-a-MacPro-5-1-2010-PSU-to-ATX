@@ -71,10 +71,11 @@ in the following days will upload photos... </br>
 
 another problem is the [AC IEC power connector](https://en.wikipedia.org/wiki/IEC_60320#C13/C14_coupler) the Original PSU is Centered on the case, </br>
 all ATX PSUs have the power connector somewere else,  </br>
-may require to remove the original AC IEC Connector from the PSU, and create an Extension cable, cuting a power cable and solder to the Original power connector, </br>
+may require to remove the AC IEC Connector from the original PSU, and create an Extension cable, cuting a power cable and solder to the Original power connector, </br>
+or more fancy, removing the New AC connector, and solder the extension directly </br>
 another problem is holding the original power connector to the case without PSU. </br>
-the "easy" option is to run a standard power cable insde the case, through the square hole on the back. </br>
+the "easy" option is to run a standard power cable insde the case, directly to the New ATX PSU through the square hole on the back. </br>
 
-Fitting a New ATX SFF-L PSU inside the Original PSU case/shell, maybe possible. </br>
+Fitting a New ATX SFF-L PSU board inside the Original PSU case/shell, maybe possible. </br>
 as you can see there are many ways to do the mod, </br>
 i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
