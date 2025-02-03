@@ -75,3 +75,4 @@ may require to remove the original AC IEC Connector from the PSU, and create an 
 another problem is holding the original power connector to the case without PSU. </br>
 the "easy" option is to run a standard power cable insde the case, through the square hole on the back. </br>
 
+Fitting a New ATX SFF-L PSU inside the Original PSU case/shell, maybe possible. </br>
