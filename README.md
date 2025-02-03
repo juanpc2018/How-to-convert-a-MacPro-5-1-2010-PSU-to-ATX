@@ -25,7 +25,7 @@ separates the DVD area on the front of the case, from the PSU area on the Back, 
 if want to fit an standard size ATX PSU </br>
 requires to remove the metallic grid that holds the 120mm 12v DC fan.  </br>
 or placing the PSU on the front where the DVDs are, </br>
-removing the PSU Fan Grill is very difficult to do, without large metallic cutters, drill or pliers to cut the bolts. </br>
+removing the Fan Grid/Grill is very difficult without large metallic cutters, drill & pliers to cut the bolts. </br>
 requires to remove the CPU tray and Mainboard to avod any matallic dust falling on the electronics. </br>
 Case is made from Aluminum, can be washed later with a garden hose. </br>
 
