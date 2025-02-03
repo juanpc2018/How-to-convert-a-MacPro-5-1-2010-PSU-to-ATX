@@ -9,7 +9,7 @@ IF you can find a New replacement, that´s the easy option. </br>
 Original MacPro 5,1 (2010) [PSU](https://en.wikipedia.org/wiki/Power_supply_unit_(computer)) is [80 Plus Platinum](https://en.wikipedia.org/wiki/80_Plus#Efficiency_level_certifications) "Better than Gold", </br>
 and is smaller than standard ATX of the same power rating 900w </br>
 
-IF you replace with 80 Plus Titanium PSU, Efficiency will increase, and power consumption will lower -20w iddle, and -40w-50w when under load. </br>
+IF you replace with 80 Plus Titanium PSU, Efficiency will increase, and power consumption will lower -20w idle, and -40w-50w under load. </br>
 IF you replace with 80 Plus Gold PSU, Efficiency will lower, and power consumption will increase +20w from Platinum, and +40w from Titanium Idle. </br>
 
 replacing with an [standard ATX PSU](https://en.wikipedia.org/wiki/ATX#Power_supply) is possible but complex... </br>
