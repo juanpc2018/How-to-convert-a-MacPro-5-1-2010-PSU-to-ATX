@@ -66,11 +66,11 @@ may require a low voltage drop diode, when connecting the 5v Stand-By to the 5v 
 or the HD 5770 fan will spin turned-off, Not a Big deal,  </br>
 turn-off the PSU from a switch is better, PSUs consume energy "Turned-Off" in Standy-By mode. </br>
 
-in the following days will upload photos of the cable... </br>
+in the following days will upload photos... </br>
 
-another problem is the AC IEC power connector, the Original PSU is Centered on the case, </br>
+another problem is the [AC IEC power connector](https://en.wikipedia.org/wiki/IEC_60320#C13/C14_coupler) the Original PSU is Centered on the case, </br>
 all ATX PSUs have the power connector somewere else,  </br>
-may require to remove the original AC IEC Connector, and create an Extension cable, cuting a power cable and solder the Original power connector, </br>
+may require to remove the original AC IEC Connector from the PSU, and create an Extension cable, cuting a power cable and solder to the Original power connector, </br>
 another problem is holding the original power connector to the case without PSU. </br>
-the "easy" option is to run an standard power cable insde the case, through the square hole on the back. </br>
+the "easy" option is to run a standard power cable insde the case, through the square hole on the back. </br>
 
