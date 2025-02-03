@@ -67,5 +67,9 @@ to turn-off the PSU from a switch is better anyway, PSUs consume energy "Turned-
 
 in the following days will upload photos of the cable... </br>
 
-
+another problem is the AC IEC power connector, the Original PSU is Centered on the case, </br>
+all ATX PSUs have the power connector somewere else,  </br>
+may require to remove the original AC IEC Connector, and create an Extension cable, cuting a power cable and solder the Original power connector, </br>
+another problem is holding the original power connector to the case without PSU. </br>
+the "easy" option is to run the standard power cable insde the case, through the square hole on the back. </br>
 
