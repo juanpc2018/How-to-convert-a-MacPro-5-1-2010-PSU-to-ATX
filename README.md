@@ -35,7 +35,8 @@ upper compartment and lower compartment are separated by a large metallic wall, 
 
 inside the front of the case has metallic rails that can hold the 120mm fan very easy, fits nice. </br>
 but there is another problem: the cable of the PSU fan is under the main board,  </br>
-requires to remove the mainboard completely to remove the PSU fan  cable,  </br>
+requires to remove the mainboard completely to remove the PSU fan cable,  </br>
+the fan cable is very long, connects to the front of the Board. </br>
 
 the case has 2x small square holes on the front, between the upper and lower compartments, </br>
 where the fan cable & VGA cables can go nice, but those holes need to be widened  </br>
