@@ -44,10 +44,15 @@ connects the PSU to the Mainboard.
 The only problem with this modification is the 2x PSU temperature sensors inside the PSU
 maybe can be emulated with 2x 20K-50K resistors connected to 5v Stand-By rail.
 or the original temperature sensor module can be removed from the original PSU, and used stand alone.
+or use 2x real 56k thermal resistors, sold by many PC cooling manufacturers like Koolance, etc...
+10K may Not work, tests needed.
 
 The 120mm PSU fan is the only "Normal" fan on the case.
 
-There is also another minor problem with the 5v Rail, may require a low voltage drop diode, when connecting the 5v Stand.By to the 5v Rail.
+There is also another minor problem with the 5v Rail,
+may require a low voltage drop diode, when connecting the 5v Stand-By to the 5v Rail.
+or the HD5770 fan will spin turned-off, Not a Big deal, 
+to turn-off the PSU from a switch is better anyway, PSUs consume energy when "Turned-Off" in Standy-By mode.
 
 in the following days will upload photos of the cable...
 
