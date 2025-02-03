@@ -64,7 +64,7 @@ The 120mm PSU fan is the only "Normal" fan on the case. </br>
 There is also other minor problem with the 5v Rail, </br>
 may require a low voltage drop diode, when connecting the 5v Stand-By to the 5v Rail. </br>
 or the HD 5770 fan will spin turned-off, Not a Big deal,  </br>
-to turn-off the PSU from a switch is better anyway, PSUs consume energy "Turned-Off" in Standy-By mode. </br>
+turn-off the PSU from a switch is better, PSUs consume energy "Turned-Off" in Standy-By mode. </br>
 
 in the following days will upload photos of the cable... </br>
 
