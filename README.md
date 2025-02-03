@@ -29,9 +29,9 @@ removing the Fan Grid/Grill is very difficult without large metallic cutters, dr
 requires to remove the CPU tray and Mainboard to avod any matallic dust falling on the electronics. </br>
 Case is made from Aluminum, can be washed later with a garden hose. </br>
 
-DVD drives, need to be removed permanently and the plastic spring mechanism inside the case that holds the 2 front doors, </br>
-the reason is to move the fan from the "center" of the upper compartment, to the front, because the PSU needs the air flow or will over heat. </br>
-upper compartment and lower compartment are separated by a large metallic wall, bnottom airflow does Not affect upper airflow. </br>
+DVD drives need to be removed permanently and the plastic spring mechanism inside the case that holds the 2 front doors, </br>
+the reason is to move the fan from the "center" of the upper compartment to the <--front, because the PSU needs the air flow. </br>
+upper compartment and lower compartment are separated by a large metallic wall, bottom airflow does Not affect upper airflow. </br>
 
 inside the front of the case has metallic rails that can hold the 120mm fan very easy, fits nice. </br>
 but there is another problem: the cable of the PSU fan is under the main board,  </br>
