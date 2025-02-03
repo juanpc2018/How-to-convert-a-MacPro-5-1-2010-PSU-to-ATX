@@ -13,7 +13,7 @@ IF you replace with 80 Plus Titanium PSU, Efficiency will increase, & power cons
 IF you replace with 80 Plus Gold PSU, Efficiency will lower, & power consumption will increase +20w from Platinum, and +40w from Titanium Idle. </br>
 
 replacing with an [standard ATX PSU](https://en.wikipedia.org/wiki/ATX#Power_supply) is possible but complex... </br>
-is better to replace with a [SFF "Small Form Factor"](https://en.wikipedia.org/wiki/Small_form_factor_PC) PSU, and Modular "cables can be removed". </br>
+is better to replace with a [SFF "Small Form Factor"](https://en.wikipedia.org/wiki/Small_form_factor_PC) Modular PSU "cables can be removed". </br>
 because the PSU Fan is Not on the PSU, its on the Case / Chassis, </br>
 There was many years ago a [Fanless SFF-L PSU](https://www.youtube.com/watch?v=gnkaMFQ14TU&t=25s) may work.. without removing the Fan grill, but the problem is runing the cables to the lower chamber. </br>
 the only way is on the bottom wall. </br>
