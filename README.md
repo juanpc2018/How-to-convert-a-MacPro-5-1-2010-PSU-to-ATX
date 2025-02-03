@@ -76,3 +76,5 @@ another problem is holding the original power connector to the case without PSU.
 the "easy" option is to run a standard power cable insde the case, through the square hole on the back. </br>
 
 Fitting a New ATX SFF-L PSU inside the Original PSU case/shell, maybe possible. </br>
+as you can see there are many ways to do the mod, </br>
+i did the lazy method, nothing fancy, just works. </br>
