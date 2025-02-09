@@ -82,26 +82,47 @@ i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
 
 # at your own risk
 
-Pinouts of: 
+Pinouts of: </br>
 24-pin ATX12V 2.x power supply connector </br>
-viewed from the back "cables towardd you" plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
+viewed from the PSU connector, plastic tab on the right </br>
+or from the back of the ATX extension connector cable, plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
 Apple connector can only fit 1-way because it has 2 asymetric notches, Top Left | Center Right. </br>
 Not complete!
 ```
 ┌────────────────┐
 │ 1─[X] │ 13─[Orange +3.3v]                         
 │ 2─[X] │ 14─[X]                                    ╔═══╗ ╔═══╗                     ╔═══╗ ╔═══╗
-│ 3─[ ]─┼─15─[ ]──>                                 ╚╗  ╠═╣   ║                     ║   ╠═╣   ║
-│ 4─[ ] │ 16─[Green PowerOn]                     ═╗ ║│ │║ ║│ │║   ┌──┬──┬──┬──┬──┐  ║│ │║ ║│ │║ ╔═
-│ 5─[ ]─┼─17─[ ]──>                               ║ ║│ │║ ║│ │║   [○][○][○][○][○]   ║│ │║ ║│ │║ ║
+│ 3─[ ]─┼─15─[ ]──>                                 ╚╗G ╠═╣+12║                     ║+12╠═╣GND║
+│ 4─[ ] │ 16─[Green PowerOn]                     ═╗ ║│N│║ ║│ │║   ┌──┬──┬──┬──┬──┐  ║│ │║ ║│ │║ ╔═
+│ 5─[ ]─┼─17─[ ]──>                               ║ ║│D│║ ║│ │║   [○][○][○][○][○]   ║│ │║ ║│ │║ ║
 │ 6─[ ] │ 18─[ ]                                  ║ ║   ║ ║   ║   [○][○][○][○][○]   ║   ║ ║  ╔╝ ║
 │ 7─[ ] │ 19─[ ]───────┬───>                      ║ ║│ │║ ║│ │║   [○][○][○][○][○]   ║│ │║ ║│ │║ ║
 │ 8─[X] │ 20─[X]       │                         ═╝ ║│ │║ ║│ │║   └──┴──┴──┴──┴──┘  ║│ │║ ║│ │║ ╚═
-│ 9─[ ] │ 21─[ ]       │                            ║   ╠═╣   ║                     ║   ╠═╣   ║
+│ 9─[ ]───21─[ ]       │                            ║GND╠═╣+12║                     ║+12╠═╣GND║
 │10─[X] │ 22─[ ]       │                            ╚═══╝ ╚═══╝                     ╚═══╝ ╚═══╝
 │11─[X] │ 23─[X]       │                              
 │12─[X] │ 24─[ ]───────┘                              
 └────────────────┘
+
+[9] Purple +5 VSB PSU standby + [21] +5vdc, Joined, Not connected to Mac.
+The +5VSB supply is used to provide the soft-power feature of ATX when a PC is turned off,
+as well as powering the real-time clock to conserve the CMOS battery.
+standby supplies power even when the rest of the supply wire lines are off. 
+This can be used to power the circuitry that controls the soft-power-on signal.
+Problem is that the Mac PSU does Not have a dedicated +5VSB line, its all +5V.
+i joined the +5VSB "never-off" to a a Single Rail +5V on the PSU, to power all +5V lines when Off, as test.
+works but the HD 5770 fan spins when turned-off, need better pin-point of the +5VSb.
+
+[13]─Orange +3.3v connected to Mac.
+[3]+[15] Joined Ground connected to Mac.
+[4] +5V connected to Mac. | [16] PowerOn Green connected to Mac.
+[5]+[17] Joined Ground connected to Mac.
+[6] +5V connected to Mac.
+[7]+[18] Joined Ground connected to Mac.
+[19]+[24] Joined Ground connected to Mac.
+[22] +5V connected to Mac.
+
+
 ```
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
 VGA (6+2)-pin PCIe has +12V on the pins far away from the plastic tab </br>
