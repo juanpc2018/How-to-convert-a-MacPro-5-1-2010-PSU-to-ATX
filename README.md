@@ -79,3 +79,23 @@ the "easy" option is to run a standard power cable insde the case, directly to t
 Fitting a New ATX SFF-L PSU board inside the Original PSU case/shell, maybe possible. </br>
 as you can see there are many ways to do the mod, </br>
 i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
+
+# at your own risk
+
+Pinouts of: 
+24-pin ATX12V 2.x power supply connector
+
+viewed from the back "cables towardd you" plastic tab on the right,
+1-[X] | 13-
+2-[X] | 14-[X]
+3-  | 15-
+4-  | 16-
+5-  | 17-
+6-  | 18-
+7-  | 19-
+8-[X] | 20-[X]
+9-  | 21-
+10-[X] | 22
+11-[X] | 23-[X]
+12-[X] | 24-
+
