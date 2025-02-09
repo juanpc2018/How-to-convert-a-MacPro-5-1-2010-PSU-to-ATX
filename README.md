@@ -113,7 +113,7 @@ Problem is that the Mac PSU does Not have a dedicated +5VSB line, its all +5V.
 i joined the +5VSB "never-off" to a a Single Rail +5V on the PSU, to power all +5V lines when Off, as test.
 works but the HD 5770 fan spins when turned-off, need better pin-point of the +5VSb.
 
-[13]─Orange +3.3v connected to Mac.
+[13]─Orange +3.3v connected to Mac-[L○]
 [3]+[15] Joined Ground connected to Mac.
 [4] +5V connected to Mac. | [16] PowerOn Green connected to Mac.
 [5]+[17] Joined Ground connected to Mac.
@@ -121,6 +121,14 @@ works but the HD 5770 fan spins when turned-off, need better pin-point of the +5
 [7]+[18] Joined Ground connected to Mac.
 [19]+[24] Joined Ground connected to Mac.
 [22] +5V connected to Mac.
+
+┌──┬──┬──┬──┬──┐ 
+[A○]│[B○]│[C○]│[D○]│[E○]│
+[F○]│[G○]│[H○]│[I○]│[J○]│
+[K○]│[L○]│[M○]│[N○]│[P○]│
+└──┴──┴──┴──┴──┘
+
+[L○] connected to [13]─Orange +3.3v PSU
 
 
 ```
