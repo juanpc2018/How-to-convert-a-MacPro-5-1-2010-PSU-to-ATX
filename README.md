@@ -83,20 +83,31 @@ i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
 # at your own risk
 
 Pinouts of: 
-24-pin ATX12V 2.x power supply connector
+24-pin ATX12V 2.x power supply connector </br>
+viewed from the back "cables towardd you" plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
+Apple connector can only fit 1-way because it has 2 asymetric notches, Top Left | Center Right. </br>
+Not complete!
+```
+┌────────────────┐
+│ 1─[X] │ 13─[Orange +3.3v]                         
+│ 2─[X] │ 14─[X]                                    ╔═══╗ ╔═══╗                     ╔═══╗ ╔═══╗
+│ 3─[ ]─┼─15─[ ]──>                                 ╚╗  ╠═╣   ║                     ║   ╠═╣   ║
+│ 4─[ ] │ 16─[Green PowerOn]                     ═╗ ║│ │║ ║│ │║   ┌──┬──┬──┬──┬──┐  ║│ │║ ║│ │║ ╔═
+│ 5─[ ]─┼─17─[ ]──>                               ║ ║│ │║ ║│ │║   [○][○][○][○][○]   ║│ │║ ║│ │║ ║
+│ 6─[ ] │ 18─[ ]                                  ║ ║   ║ ║   ║   [○][○][○][○][○]   ║   ║ ║  ╔╝ ║
+│ 7─[ ] │ 19─[ ]───────┬───>                      ║ ║│ │║ ║│ │║   [○][○][○][○][○]   ║│ │║ ║│ │║ ║
+│ 8─[X] │ 20─[X]       │                         ═╝ ║│ │║ ║│ │║   └──┴──┴──┴──┴──┘  ║│ │║ ║│ │║ ╚═
+│ 9─[ ] │ 21─[ ]       │                            ║   ╠═╣   ║                     ║   ╠═╣   ║
+│10─[X] │ 22─[ ]       │                            ╚═══╝ ╚═══╝                     ╚═══╝ ╚═══╝
+│11─[X] │ 23─[X]       │                              
+│12─[X] │ 24─[ ]───────┘                              
+└────────────────┘
+```
+VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
+VGA (6+2)-pin PCIe has +12V on the pins far away from the plastic tab </br>
+CPU (4+4)-pin has +12V on the pins closer to the plastic tab. </br>
 
-viewed from the back "cables towardd you" plastic tab on the right
-```
-1-[X] | 13-[Orange +3.3v]
-2-[X] | 14-[X]
-3-[ ]-|-15-[ ]-->
-4-[ ] | 16-[ ]
-5-[ ]-|-17-[ ]-->
-6-[ ] | 18-[ ]
-7-[ ] | 19-[ ]-------|--->
-8-[X] | 20-[X]       |
-9-[ ] | 21-[ ]       |
-10-[X] | 22[ ]       |
-11-[X] | 23-[X]      |
-12-[X] | 24-[ ]------|
-```
+This modification can be done both ways... </br>
+cutting CPU PSU cables or cutting VGA cables, </br>
+i recommend cutting VGA PSU cables. </br>
+
