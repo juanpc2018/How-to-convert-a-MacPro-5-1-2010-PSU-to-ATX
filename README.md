@@ -128,8 +128,9 @@ works but the HD 5770 fan spins when turned-off, need better pin-point of the +5
 [K○]│[L○]│[M○]│[N○]│[P○]│
 └──┴──┴──┴──┴──┘
 
-[L○] connected to [13]─Orange +3.3v PSU
-
+[B○] connected to [16] PowerOn Green | [D○] connected to [5]+[17] GND.
+[H○] connected to [4]+5V | [I○] connected to [3]+[15] GND.
+[L○] connected to [13]─Orange +3.3v PSU | [N○] connected to [6]+5V
 
 ```
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
