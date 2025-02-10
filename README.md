@@ -162,12 +162,17 @@ Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numb
 i have connected:
 ATX [9] Purple +5VSB standby -> ATX [21] +5vdc
 because its a single +5v Rail PSU, when in-Standby / PowerOFF,
-sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○]
-but thats Not the best way to do it,
-The proper way is to connect a Low Voltage Drop Diode to +5VSB in series,
-disconnect [9] Purple from ATX [21],
-and connect to only One: [H○] or [M○] or [N○] | [4] or [6] or [22]
-One is the Mac +5VSB, Not All.
+sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○] |  [4]+[6]+[22]
+but thats Not the best way to do it, that was a test.
+
+The proper way is to disconnect [9] Purple from ATX [21],
+connect +5VSb to only One: [H○] or [M○] or [N○] | [4] or [6] or [22]
+Not All, One is the Mac +5VSB,
+Problem is that +5VSb would return back to the PSU and spread all over again,
+requires a Low Drop Diode,
+A) in one of the: [H○] or [M○] or [N○] inputs,
+and connect +5VSB after the Diode.
+IF Mac Board is isolated, That will stop +5VSb to go back to the PSU +5V rails.
 
 [F○] -> Thermistor-1
 [G○] -> Thermistor-2
