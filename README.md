@@ -88,6 +88,11 @@ viewed from the PSU connector, plastic tab on the right </br>
 or from the back of the ATX extension connector cable, plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
 Apple connector can only fit 1-way because it has 2 asymetric notches, Top Left | Center Right. </br>
 Not complete!
+
+I used a 24-Pin ATX v2 Extension cable, and cut it in half, </br>
+soldered the Mac Power Connector cables to ATX Extension cable cut in half, </br>
+that allows to disconnect the PSU and use it on another PC or a PSU tester. </br>
+
 ```
 ┌────────────────┐
 │ 1─[X] │ 13─[Orange +3.3v]                         
@@ -155,6 +160,15 @@ The proper way is to connect a Low Voltage Drop Diode to +5VSB in series,
 disconnect [9] Purple from ATX [21],
 and connect to only One: [H○] or [M○] or [N○],
 One is the Mac +5VSB, Not All.
+
+[F○] -> Thermistor-1
+[G○] -> Thermistor-2
+That´s a mistery...
+could be connected to each other pin with a 20K-50K resistor between.
+could be connected to a 20K-50K resistor each or a 20K-50K-100K potentiometer centered, center pin to +5VSB.
+directly to +5V does Not work.
+to 2x True 56K thermistors: 1-pin to Mac 1 pin to GND each,
+or 1x 56K thermistor, connected between [Fo] & [Go]
 
 ```
 [AWG Chart](https://www.powerstream.com/Wire_Size.htm)
