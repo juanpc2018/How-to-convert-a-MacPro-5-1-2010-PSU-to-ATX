@@ -141,6 +141,7 @@ Mac Connector:
 [A○] -> [7]+[18] GND. | [B○] -> [16] PowerOn Green | [C○] -> [19]+[24] GND. | [D○] -> [5]+[17] GND. |
 [F○] -> Thermistor-1 | [G○] -> Thermistor-2 | [H○] -> [4]+5V | [I○] -> [3]+[15] GND. |
 [L○] -> [13]─Orange +3.3v PSU | [M○] -> [22] +5V | [N○] -> [6]+5V |
+[X] = Not Connected / Removed / Ignored / Not Available.
 
 The +12V on each side has 2 wires +12v, 2-wires GND on each side.
 requires 2-VGA connectors, 1x for each side...
