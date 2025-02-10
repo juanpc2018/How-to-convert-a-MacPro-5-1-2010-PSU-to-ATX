@@ -122,15 +122,15 @@ works but the HD 5770 fan spins when turned-off, need better pin-point of the +5
 [19]+[24] Joined Ground connected to Mac.
 [22] +5V connected to Mac.
 
-┌──┬──┬──┬──┬──┐ 
+┌───┬────┬────┬────┬───┐ 
 [A○]│[B○]│[C○]│[D○]│[X]│
 [F○]│[G○]│[H○]│[I○]│[X]│
-[X]│[L○]│[M○]│[N○]│[X]│
-└──┴──┴──┴──┴──┘
+│[X]│[L○]│[M○]│[N○]│[X]│
+└───┴────┴────┴────┴───┘
 
-[A○] -> [7]+[18] GND. | [B○] -> [16] PowerOn Green | [C○] -> [19]+[24] GND. | [D○] -> [5]+[17] GND.
-[F○] -> Thermistor-1 | [G○] -> Thermistor-2 | [H○] -> [4]+5V | [I○] -> [3]+[15] GND.
-[L○] -> [13]─Orange +3.3v PSU | [M○] -> [22] +5V | [N○] -> [6]+5V
+[A○] -> [7]+[18] GND. | [B○] -> [16] PowerOn Green | [C○] -> [19]+[24] GND. | [D○] -> [5]+[17] GND. |
+[F○] -> Thermistor-1 | [G○] -> Thermistor-2 | [H○] -> [4]+5V | [I○] -> [3]+[15] GND. |
+[L○] -> [13]─Orange +3.3v PSU | [M○] -> [22] +5V | [N○] -> [6]+5V |
 
 The +12V on each side has 2 wires +12v, 2-wires GND on each side.
 requires 2-VGA connectors, 1x for each side...
