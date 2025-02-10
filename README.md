@@ -142,6 +142,20 @@ Each VGA connector has: 3x +12v | 3x GND,
 Mac Connector requires: 2x +12v | 2x GND.
 Mac +12v/GND [AWG Size](https://www.powerstream.com/Wire_Size.htm) is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numbers less.
 
+[H○] -> [4] +5V
+[M○] -> [22] +5V
+[N○] -> [6] +5V
+
+i have connected:
+ATX [9] Purple +5VSB standby -> ATX [21] +5vdc
+because its a single +5v Rail PSU, when in-Standby / PowerOFF,
+sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○]
+but thats Not the best way to do it,
+The proper way is to connect a Low Voltage Drop Diode to +5VSB in series,
+disconnect [9] Purple from ATX [21],
+and connect to only One: [H○] or [M○] or [N○],
+One is the Mac +5VSB, Not All.
+
 ```
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
 VGA (6+2)-pin PCIe has +12V on the pins far away from the plastic tab </br>
