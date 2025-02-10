@@ -140,7 +140,7 @@ Modular PSUs VGA connector is 8-pin, but output cable is 6+2
 Only 3-pins have Power, all other VGA pins are Ground or Sense "feedback".
 Each VGA connector has: 3x +12v | 3x GND,
 Mac Connector requires: 2x +12v | 2x GND.
-Mac +12v/GND [AWG Size](https://www.powerstream.com/Wire_Size.htm) is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numbers less.
+Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numbers less.
 
 [H○] -> [4] +5V
 [M○] -> [22] +5V
@@ -157,6 +157,7 @@ and connect to only One: [H○] or [M○] or [N○],
 One is the Mac +5VSB, Not All.
 
 ```
+[AWG Chart](https://www.powerstream.com/Wire_Size.htm)
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
 VGA (6+2)-pin PCIe has +12V on the pins far away from the plastic tab </br>
 CPU (4+4)-pin has +12V on the pins closer to the plastic tab. </br>
@@ -164,4 +165,4 @@ CPU (4+4)-pin has +12V on the pins closer to the plastic tab. </br>
 This modification can be done both ways... </br>
 cutting CPU PSU cables or cutting VGA cables, </br>
 i recommend cutting VGA PSU cables. </br>
-
+CPU cables can be disconected on EVGA T2. </br>
