@@ -62,7 +62,7 @@ or the original temperature sensor module can be removed from the original PSU, 
 or use 2x real 56k thermal resistors, sold by many PC cooling manufacturers like Koolance, etc... </br>
 10K may Not work, tests needed. </br>
 
-### This Mod works, but Not perfect. </br>
+## Mod works, but Not perfect. </br>
 
 The 120mm PSU Fan is the only "Normal" on the case. </br>
 
@@ -91,7 +91,9 @@ Pin outs of: </br>
 viewed from the PSU connector, plastic tab on the right </br>
 or from the back of the ATX extension connector cable, plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
 Apple connector can only fit 1-way because it has 2 asymetric notches, Top Left | Center Right. </br>
-Not complete!
+Mac Power cable bends to the Right. </br>
+place a stiker or scratch the plastic of the connector with an X, to mark top side. </br>
+Not complete! </br>
 
 I used a 24-Pin ATX v2 Extension cable, and cut it in half, </br>
 soldered the Mac Power Connector cables to ATX Extension cable cut in half, </br>
