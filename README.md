@@ -23,7 +23,7 @@ the only way is on the bottom wall, and front. </br>
 
 [SilverStonetek](https://www.silverstonetek.com/en/product/power-supplies/?filter=SFX_SFXL) has nice SFF-L models. </br>
 
-Mac Pro 5,1 case has a compartment and an a metallic grid that holds the 120mm PSU fan, </br>
+Mac Pro 5,1 case has a compartment and a metallic grid that holds the 120mm PSU fan, </br>
 separates the DVD area in the front, from the PSU area on the Back,  </br>
 if want to fit an standard size ATX PSU </br>
 requires to remove the metallic grid that holds the 120mm 12v DC fan.  </br>
