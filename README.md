@@ -133,9 +133,14 @@ works but the HD 5770 fan spins when turned-off, need better pin-point of the +5
 [L○] -> [13]─Orange +3.3v PSU | [M○] -> [22] +5V | [N○] -> [6]+5V
 
 The +12V on each side has 2 wires +12v, 2-wires GND on each side.
-requires 2-VGA connectors, 1 for each side...
+requires 2-VGA connectors, 1x for each side...
 each PCIe requires 75w, Front Rear Turbo & PSU Fans require Watts.
 CPU requires Watts, SouthBridge ICH9R requires power.
+Modular PSUs VGA connector is 8-pin, but output cable is 6+2
+Only 3-pins have Power, all other VGA pins are Ground or Sense "feedback".
+Each VGA connector has: 3x +12v | 3x GND,
+Mac Connector requires: 2x +12v | 2x GND.
+Mac +12v/GND [AWG Size](https://www.powerstream.com/Wire_Size.htm) is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numbers less.
 
 ```
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
