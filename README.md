@@ -131,7 +131,7 @@ works but the HD 5770 fan spins when turned-off, needs a better mod of the +5VSb
 [19]+[24] Joined Ground connected to Mac.
 [22] +5V connected to Mac.
 
-Mac Connector:
+Mac Connector, viewed from the side that connect to the Board:
 ┌───┬────┬────┬────┬───┐ 
 [A○]│[B○]│[C○]│[D○]│[X]│
 [F○]│[G○]│[H○]│[I○]│[X]│
