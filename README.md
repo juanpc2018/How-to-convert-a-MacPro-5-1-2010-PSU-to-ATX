@@ -95,7 +95,7 @@ Not complete!
 
 I used a 24-Pin ATX v2 Extension cable, and cut it in half, </br>
 soldered the Mac Power Connector cables to ATX Extension cable cut in half, </br>
-that allows to disconnect the PSU and use it on another PC or a PSU tester. </br>
+allows to disconnect the PSU and use it on another PC or a PSU tester. </br>
 
 ```
 ┌────────────────┐
@@ -115,12 +115,12 @@ that allows to disconnect the PSU and use it on another PC or a PSU tester. </br
 
 [9] Purple +5 VSB PSU standby + [21] +5vdc, Joined, Not connected to Mac.
 The +5VSB supply is used to provide the soft-power feature of ATX when a PC is turned off,
-as well as powering the real-time clock to conserve the CMOS battery.
+as well as powering the real-time clock to conserve CMOS battery.
 standby supplies power even when the rest of the supply wire lines are off. 
 This can be used to power the circuitry that controls the soft-power-on signal.
 Problem is that the Mac PSU does Not have a dedicated +5VSB line, its all +5V.
 i joined the +5VSB "never-off" to a a Single Rail +5V on the PSU, to power all +5V lines when Off, as test.
-works but the HD 5770 fan spins when turned-off, need better pin-point of the +5VSb.
+works but the HD 5770 fan spins when turned-off, needs a better mod of the +5VSb.
 
 [13]─Orange +3.3v connected to Mac-[L○]
 [3]+[15] Joined Ground connected to Mac.
@@ -162,17 +162,17 @@ sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○]
 but thats Not the best way to do it,
 The proper way is to connect a Low Voltage Drop Diode to +5VSB in series,
 disconnect [9] Purple from ATX [21],
-and connect to only One: [H○] or [M○] or [N○],
+and connect to only One: [H○] or [M○] or [N○] | [4] or [6] or [22]
 One is the Mac +5VSB, Not All.
 
 [F○] -> Thermistor-1
 [G○] -> Thermistor-2
 That´s a mistery...
-could be connected to each other pin with a 20K-50K resistor between.
+could be connected to each other pin with a 20K-50K resistor in-between.
 could be connected to a 20K-50K resistor each or a 20K-50K-100K potentiometer centered, center pin to +5VSB.
 directly to +5V does Not work.
-to 2x True 56K thermistors: 1-pin to Mac 1 pin to GND each,
-or 1x 56K thermistor, connected between [Fo] & [Go]
+to 2x True 56K thermistors: 1-pin to Mac 1-pin to GND each,
+or 1x 10K-56K thermistor, connected between [Fo] & [Go].
 
 ```
 [AWG Chart](https://www.powerstream.com/Wire_Size.htm)
