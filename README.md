@@ -168,11 +168,12 @@ but thats Not the best way to do it, that was a test.
 The proper way is to disconnect [9] Purple from ATX [21],
 connect +5VSb to only One: [H○] or [M○] or [N○] | [4] or [6] or [22]
 Not All, One is the Mac +5VSB,
-Problem is that +5VSb would return back to the PSU and spread all over again,
-requires a Low Drop Diode,
-A) in one of the: [H○] or [M○] or [N○] inputs,
+Problem is that +5VSb could return back to the PSU and spread all over again,
+IF that happens, Requires a Low Drop Diode,
+in one of the: [H○] or [M○] or [N○] inputs,
 and connect +5VSB after the Diode.
 IF Mac Board is isolated, That will stop +5VSb to go back to the PSU +5V rails.
+IF +5VSb return back to the PSU, requires diodes on 2x or 3x +5v inputs.
 
 [F○] -> Thermistor-1
 [G○] -> Thermistor-2
