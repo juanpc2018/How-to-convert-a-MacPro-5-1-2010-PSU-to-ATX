@@ -134,11 +134,11 @@ works but the HD 5770 fan spins when turned-off, needs a better mod of the +5VSb
 [22] +5V connected to Mac.
 
 Mac Connector, viewed from the side that connect to the Board:
-┌───┬────┬────┬────┬───┐ 
-[A○]│[B○]│[C○]│[D○]│[X]│
-[F○]│[G○]│[H○]│[I○]│[X]│
-│[X]│[L○]│[M○]│[N○]│[X]│
-└───┴────┴────┴────┴───┘
+┌────┬────┬────┬────┬───┐ 
+│[A○]│[B○]│[C○]│[D○]│[X]│
+│[F○]│[G○]│[H○]│[I○]│[X]│
+│[X] │[L○]│[M○]│[N○]│[X]│
+└────┴────┴────┴────┴───┘
 
 [A○] -> [7]+[18] GND. | [B○] -> [16] PowerOn Green | [C○] -> [19]+[24] GND. | [D○] -> [5]+[17] GND. |
 [F○] -> Thermistor-1 | [G○] -> Thermistor-2 | [H○] -> [4]+5V | [I○] -> [3]+[15] GND. |
