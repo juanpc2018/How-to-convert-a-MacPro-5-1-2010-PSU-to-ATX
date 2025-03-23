@@ -104,6 +104,7 @@ IF you can buy a shorter custom cable for the ATX PSU, or cut the ATX 24-pin cab
 i do Not recommend cutting the Apple power cables as short as possible, the opposite, desolder/cut from inside the Original PSU. </br>
 
 ```
+ATX v2 
 ┌────────────────┐
 │ 1─[X] │ 13─[Orange +3.3v]                         
 │ 2─[X] │ 14─[X] │                                  ╔═══╗ ╔═══╗                     ╔═══╗ ╔═══╗
@@ -144,20 +145,33 @@ Mac Connector, viewed from the side that connect to the Board:
 │[X] │[L○]│[M○]│[N○]│[X]│
 └────┴────┴────┴────┴───┘
 
-[A○] -> [7]+[18] GND. | [B○] -> [16] PowerOn Green | [C○] -> [19]+[24] GND. | [D○] -> [5]+[17] GND. |
-[F○] -> Thermistor-1 | [G○] -> Thermistor-2 | [H○] -> [4]+5V | [I○] -> [3]+[15] GND. |
-[L○] -> [13]─Orange +3.3v PSU | [M○] -> [22] +5V | [N○] -> [6]+5V |
+[A○] -> [7]+[18] GND. 
+[B○] -> [16] PowerOn Green 
+[C○] -> [19]+[24] GND. 
+[D○] -> [5]+[17] GND. 
 [X] = Not Connected / Removed / Ignored / Not Available.
 
-The +12V on each side has 2 wires +12v, 2-wires GND on each side.
-requires 2-VGA connectors, 1x for each side...
+[F○] -> Thermistor-1 
+[G○] -> Thermistor-2 
+[H○] -> [4]+5V 
+[I○] -> [3]+[15] GND. 
+[X] = Not Connected / Removed / Ignored / Not Available.
+
+[X] = Not Connected / Removed / Ignored / Not Available.
+[L○] -> [13]─Orange +3.3v PSU 
+[M○] -> [22] +5V 
+[N○] -> [6]+5V 
+[X] = Not Connected / Removed / Ignored / Not Available.
+
+The Apple connector has: 2 wires +12v, 2-wires GND on each side.
+requires 2-VGA 6+2-pin connectors, 1x for each side...
 each PCIe requires 75w, Front Rear Turbo & PSU Fans require Watts.
 CPU requires Watts, SouthBridge ICH9R requires power.
 Modular PSUs VGA connector is 8-pin, but output cable is 6+2
-Only 3-pins have Power, all other VGA pins are Ground or Sense "feedback".
-Each VGA connector has: 3x +12v | 3x GND,
+Only 3-pins of the 6-VGA pins have Power, all other VGA pins are Ground or Sense "feedback".
+Each 6-Pin VGA connector has: 3x +12v | 3x GND,
 Mac Connector requires: 2x +12v | 2x GND.
-Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numbers less.
+Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables AWG16, probably are AWG15 or 14.
 
 [H○] -> [4] +5V
 [M○] -> [22] +5V
@@ -165,29 +179,33 @@ Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables, 1 or 2 AWG numb
 
 i have connected:
 ATX [9] Purple +5VSB standby -> ATX [21] +5vdc
-because its a single +5v Rail PSU, when in-Standby / PowerOFF,
-sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○] |  [4]+[6]+[22]
+because its a single +5v Rail PSU, when in-Standby mode "PowerOFF",
+sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○] | [4]+[6]+[22]
 but thats Not the best way to do it, that was a test.
 
 The proper way is to disconnect [9] Purple from ATX [21],
-connect +5VSb to only One: [H○] or [M○] or [N○] | [4] or [6] or [22]
-Not All, One is the Mac +5VSB,
-Problem is that +5VSb could return back to the PSU and spread all over again,
+connect +5VSb to only One:
+[H○] or [M○] or [N○] | [4] or [6] or [22]
+Not All, Only One is the Mac +5VSB.
+
+Problem: +5VSb could return back to the PSU and spread all over again,
 IF that happens, Requires a Low Drop Diode --[ >|]--
 in one of the: [H○] or [M○] or [N○] inputs,
-and connect +5VSB after the Diode.
-IF Mac Board is isolated, That will stop +5VSb go back to the PSU +5V rails.
+and connect +5VSB after the Diode IF also connecting a +5v to same.
+or only connect +5VSB and connect before the Diode.
+IF Mac Board is isolated, That will stop +5VSb going back to the PSU +5V rails.
 IF +5VSb returns back to the PSU, requires diodes on 2x or 3x +5v inputs.
 
 [F○] -> Thermistor-1
 [G○] -> Thermistor-2
 That´s a mistery...
 could be connected to each other pin with a 20K-50K resistor in-between.
-could be connected to a 20K-50K resistor each or a 20K-50K-100K potentiometer centered, center pin to +5VSB.
-directly to +5V does Not work.
-to 2x True 56K thermistors: 1-pin to Mac 1-pin to GND each,
+could be connected to a 20K-50K resistor each or 20K-50K-100K potentiometer centered, & center pin to +5VSB or GND.
+[F○] & [G○] connected to +5V does Not work,
+connected to each other does Not work.
+connected to 2x True 56K thermistors: 1-pin to Mac | 1-pin to GND each
 or 1x 10K-56K thermistor, connected between [Fo] & [Go].
-
+More Test needed.
 ```
 [AWG Chart](https://www.powerstream.com/Wire_Size.htm)
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
