@@ -220,5 +220,6 @@ CPU (4+4)-pin has +12V on the pins closer to the plastic tab. </br>
 
 This modification can be done both ways... </br>
 cutting CPU PSU cables or cutting VGA cables, </br>
-i recommend cutting VGA PSU cables. </br>
+i recommend cutting 2x VGA PSU cables. </br>
+and leave other 2x VGA for GPU. </br>
 
