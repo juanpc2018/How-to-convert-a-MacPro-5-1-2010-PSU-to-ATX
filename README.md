@@ -91,15 +91,17 @@ i did the lazy method, nothing fancy, just works, looks like Frankenstein. </br>
 Pin outs of: </br>
 24-pin ATX12V 2.x power supply connector </br>
 viewed from the PSU connector, plastic tab on the right </br>
-or from the back of the ATX extension connector cable, plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
+plastic tab on the right --|--> Apple MacPro 5,1 2010 Power Connector</br>
 Apple connector can only fit 1-way because it has 2 asymetric notches, Top Left | Center Right. </br>
 Mac Power cable bends to the Right. </br>
 place a stiker or scratch the plastic of the connector with an X, to mark top side. </br>
-Not complete! </br>
 
 I used a 24-Pin ATX v2 Extension cable, and cut it in half, </br>
-soldered the Mac Power Connector cables to ATX Extension cable cut in half, </br>
+soldered the Mac Power Connector cables to ATX Extension cable, </br>
 allows to disconnect the PSU and use it on another PC or a PSU tester. </br>
+Problem is that the ATX cables are long, and cable management becomes difficult. </br>
+IF you can buy a shorter custom cable for the ATX PSU, or cut the ATX 24-pin cables to make them shorter, thats an option. </br>
+i do Not recommend cutting the Apple power cables as short as possible, the opposite, desolder/cut from inside the Original PSU. </br>
 
 ```
 ┌────────────────┐
