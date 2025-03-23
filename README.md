@@ -149,29 +149,33 @@ Mac Connector, viewed from the side that connect to the Board:
 [B○] -> [16] PowerOn Green 
 [C○] -> [19]+[24] GND. 
 [D○] -> [5]+[17] GND. 
-[X] = Not Connected / Removed / Ignored / Not Available.
+[X] = Not Connected / Ignored / Not Available.
 
 [F○] -> Thermistor-1 
 [G○] -> Thermistor-2 
 [H○] -> [4]+5V 
 [I○] -> [3]+[15] GND. 
-[X] = Not Connected / Removed / Ignored / Not Available.
+[X] = Not Connected / Ignored / Not Available.
 
-[X] = Not Connected / Removed / Ignored / Not Available.
+[X] = Not Connected / Ignored / Not Available.
 [L○] -> [13]─Orange +3.3v PSU 
 [M○] -> [22] +5V 
 [N○] -> [6]+5V 
-[X] = Not Connected / Removed / Ignored / Not Available.
+[X] = Not Connected / Ignored / Not Available.
 
-The Apple connector has: 2 wires +12v, 2-wires GND on each side.
-requires 2-VGA 6+2-pin connectors, 1x for each side...
-each PCIe requires 75w, Front Rear Turbo & PSU Fans require Watts.
-CPU requires Watts, SouthBridge ICH9R requires power.
-Modular PSUs VGA connector is 8-pin, but output cable is 6+2
-Only 3-pins of the 6-VGA pins have Power, all other VGA pins are Ground or Sense "feedback".
-Each 6-Pin VGA connector has: 3x +12v | 3x GND,
+Apple connector has: 2-wires +12v, 2-wires GND on each side.
+requires 2x VGA 6+2-pin connectors, 1x for each side.
+
+each PCIe x16 requires 75w, Fans: Front, Rear, Boost, PSU Fans require Watts.
+CPU requires power, SouthBridge ICH9R, etc..
+
+Modular PSUs VGA connector is 6+2-pin
+Only 3-pins of the 6+2 VGA pins have Power, all other VGA pins are Ground or Sense "feedback".
+6-Pin VGA connector has: 3x +12v | 3x GND,
 Mac Connector requires: 2x +12v | 2x GND.
-Mac +12v/GND AWG Size is Fatter vs. Original EVGA T2 VGA cables AWG16, probably are AWG15 or 14.
+but Mac +12v/GND AWG Size is Fatter
+Original EVGA T2 VGA cables are AWG16, 
+Mac +12v/GND cables are AWG15 or 14.
 
 [H○] -> [4] +5V
 [M○] -> [22] +5V
