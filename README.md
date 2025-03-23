@@ -207,7 +207,7 @@ could be connected to each other pin with a 20K-50K resistor in-between.
 could be connected to a 20K-50K resistor each or 20K-50K-100K potentiometer centered, & center pin to +5VSB or GND.
 [F○] & [G○] connected to +5V does Not work,
 connected to each other does Not work.
-connected to 2x True 56K thermistors: 1-pin to Mac | 1-pin to GND each
+connected to 2x 56K thermistors: 1-pin to Mac | 1-pin to GND each
 or 1x 10K-56K thermistor, connected between [Fo] & [Go].
 More Test needed.
 ```
@@ -219,4 +219,4 @@ CPU (4+4)-pin has +12V on the pins closer to the plastic tab. </br>
 This modification can be done both ways... </br>
 cutting CPU PSU cables or cutting VGA cables, </br>
 i recommend cutting VGA PSU cables. </br>
-CPU cables can be disconected on EVGA T2. </br>
+
