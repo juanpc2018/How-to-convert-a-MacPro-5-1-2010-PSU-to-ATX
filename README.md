@@ -160,7 +160,7 @@ Mac Connector, viewed from the side that connect to the Board:
 [X] = Not Connected / Ignored / Not Available.
 [L○] -> [13]─Orange +3.3v PSU 
 [M○] -> [22] +5V 
-[N○] -> [6]+5V 
+[N○] -> [6] +5V 
 [X] = Not Connected / Ignored / Not Available.
 
 Apple connector has: 2-wires +12v, 2-wires GND on each side.
@@ -189,27 +189,29 @@ but thats Not the proper way to do it, that was a quick test.
 
 The proper way is to disconnect [9] Purple from ATX [21],
 connect +5VSb to only One:
-[H○] or [M○] or [N○] | [4] or [6] or [22]
+[H○] or [M○] or [N○]
 Not All, Only One is the Mac +5VSB.
 
 Problem: +5VSb could return back to the PSU and spread all over again,
+
 IF that happens, Requires a Low Drop Diode --[ >|]--
 in one of the: [H○] or [M○] or [N○] inputs,
 and connect +5VSB after the Diode IF also connecting a +5v to same.
 or only connect +5VSB and connect before the Diode.
 IF Mac Board is isolated, That will stop +5VSb going back to the PSU +5V rails.
 IF +5VSb returns back to the PSU, requires diodes on 2x or 3x +5v inputs.
+More Tests Needed.
 
 [F○] -> Thermistor-1
 [G○] -> Thermistor-2
 That´s a mistery...
-could be connected to each other pin with a 20K-50K resistor in-between.
+could be connected to each other with a 20K-50K resistor in-between.
 could be connected to a 20K-50K resistor each or 20K-50K-100K potentiometer centered, & center pin to +5VSB or GND.
 [F○] & [G○] connected to +5V does Not work,
-connected to each other does Not work.
+connected to each other directly does Not work.
 connected to 2x 56K thermistors: 1-pin to Mac | 1-pin to GND each
 or 1x 10K-56K thermistor, connected between [Fo] & [Go].
-More Test needed.
+More Tests needed.
 ```
 [AWG Chart](https://www.powerstream.com/Wire_Size.htm)
 VGA (6+2)-pin PCIe is "opposite" of CPU (4+4) </br>
