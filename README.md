@@ -185,7 +185,7 @@ i have connected:
 ATX [9] Purple +5VSB standby -> ATX [21] +5vdc
 because its a single +5v Rail PSU, when in-Standby mode "PowerOFF",
 sends +5VSB to all +5V ATX outs: [H○]+[M○]+[N○] | [4]+[6]+[22]
-but thats Not the best way to do it, that was a test.
+but thats Not the proper way to do it, that was a quick test.
 
 The proper way is to disconnect [9] Purple from ATX [21],
 connect +5VSb to only One:
