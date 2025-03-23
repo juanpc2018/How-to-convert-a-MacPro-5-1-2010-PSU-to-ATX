@@ -10,20 +10,22 @@ IF you can find a New replacement, that´s the easy option. </br>
 Original MacPro 5,1 (2010) [PSU](https://en.wikipedia.org/wiki/Power_supply_unit_(computer)) is [80 Plus Platinum](https://en.wikipedia.org/wiki/80_Plus#Efficiency_level_certifications) "Better than Gold", </br>
 and smaller vs. standard ATX PSU of the same power rating 900w </br>
 
-IF replace with 80 Plus Titanium: Efficiency will increase & power consumption lower -20w idle, -40w-50w under load. </br>
-IF replace with 80 Plus Gold: Efficiency will lower & power consumption increase +20w from Platinum, and +40w from Titanium Idle. </br>
+IF replace with 80 Plus Titanium: </br>
+Efficiency will increase & power consumption lowers -20w idle, -40w-50w under load. </br>
+IF replace with 80 Plus Gold: </br>
+Efficiency will lower & power consumption increase +20w from Platinum, and +40w from Titanium Idle. </br>
 
-replacing with an [standard ATX PSU](https://en.wikipedia.org/wiki/ATX#Power_supply) is possible but complex... </br>
+replacing with [Standard ATX PSU](https://en.wikipedia.org/wiki/ATX#Power_supply) is possible but complex... </br>
 is better to replace with a [SFF "Small Form Factor"](https://en.wikipedia.org/wiki/Small_form_factor_PC) </br>
 Modular PSU "cables can be removed" </br>
 because the PSU Fan is Not on the PSU, its on the Case / Chassis, </br>
 There was a [Fanless SFF-L PSU](https://www.youtube.com/watch?v=gnkaMFQ14TU&t=25s) Discontinued, may work.. without removing the Fan grill, </br>
 but the problem is running the cables to the lower chamber. </br>
-the only way is on the bottom wall, and front. </br>
+the only way is on the front bottom wall. </br>
 
 [SilverStonetek](https://www.silverstonetek.com/en/product/power-supplies/?filter=SFX_SFXL) has nice SFF-L models. </br>
 
-Mac Pro 5,1 case has a compartment and a metallic grid that holds the 120mm PSU fan, </br>
+Mac Pro 5,1 case has a top compartment and a metallic grid that holds the 120mm PSU fan, </br>
 separates the DVD area in the front, from the PSU area on the Back,  </br>
 if want to fit an standard size ATX PSU </br>
 requires to remove the metallic grid that holds the 120mm 12v DC fan.  </br>
@@ -36,23 +38,23 @@ DVD drives need to be removed permanently and the plastic spring mechanism insid
 the reason is to move the fan from the "center" of the upper compartment to the <--front, because the PSU needs air flow. </br>
 upper compartment and lower compartment are separated by a large metallic wall, bottom airflow does Not affect upper airflow. </br>
 
-inside the upper front chamber of the case has metallic rails that can hold the 120mm fan very easy, fits nice. </br>
+inside the upper front chamber of the case has metallic rails that can hold the 120mm fan easy, fits nice. </br>
 but there is another problem: the cable of the PSU Fan is under the main board,  </br>
 requires to remove the mainboard completely to remove the Fan cable,  </br>
 the Fan cable is very long, connects to the front of the Board. </br>
 
 the case has 2x small square holes on the front, between the upper and lower compartments, </br>
 where the fan cable & VGA cables can go nice, but those holes need to be widened  </br>
-if want to run 2x VGA 6+2-pin cables from the upper chamber to the lower chamber in 1 hole, difficult. </br>
+if want to run 2x VGA 6+2-pin cables from the upper chamber to the lower chamber in 1 hole, is difficult. </br>
 
-i´ve tried to remove the 120mm Fan cable without removing the board, Not recommended, it could damage something on the back of the board. </br>
+i´ve tried to remove the 120mm Fan cable without removing the board, Not recommended, could damage something on the back of the board. </br>
 
-also requires to cut the cables from the original PSU, or buy a damaged Mac 5,1 PSU and cut the cables,  </br>
-also cut cables from the New ATX / SFF PSU to join both, and a ATX v2 24-Pin Extension, to cut it in half, </br>
-buy extra / replacement cables for the New PSU is an option, some china manufacturers change desing of the PSU cables in the middle of production, </br>
+also requires to cut cables from the original PSU, or buy a damaged Mac 5,1 PSU and cut the cables,  </br>
+also cut cables from the New ATX / SFF PSU to join both, + an ATX v2 24-Pin Extension or Y, to cut it, </br>
+to buy extra / replacement cables for the New PSU is an option, but some china manufacturers change desing of the PSU in the middle of production, </br>
 the same PSU cables may Not be compatible with the PSU, need a PSU tester & DMM "Digital Multi Meter". </br>
 
-The Original Mac 5,1 PSU has a custom connector required, </br>
+The Original Mac 5,1 PSU has a custom connector *Required, </br>
 that connector is behind an aluminium panel, behind the DVD drives, easy to remove. </br>
 connects the PSU to the Mainboard. </br>
 
